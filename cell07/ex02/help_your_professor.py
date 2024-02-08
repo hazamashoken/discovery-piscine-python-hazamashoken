@@ -3,7 +3,7 @@
 from statistics import mean
 
 def average(dic: dict):
-    return mean([int(value) for key, value in dic.items()])
+    return mean([int(value) for _, value in dic.items()])
 
 def main():
     class_3B = {

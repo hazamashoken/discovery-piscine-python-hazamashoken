@@ -3,10 +3,7 @@
 def main():
     try:
         n1 = input("Give me a number: ")
-        if (int(float(n1)) != float(n1)):
-            print("This number is a decimal.")
-        else:
-            print("This number is an integer.")
+        print("This number is a decimal.") if (int(float(n1)) != float(n1)) else print("This number is an integer.")
     
     except ValueError:
         print("number must be number.")

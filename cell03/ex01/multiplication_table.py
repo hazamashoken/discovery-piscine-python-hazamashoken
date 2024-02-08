@@ -3,8 +3,8 @@
 def main():
     try:
         num = int(input("Enter a number\n"))
-        for i in range(10):
-            print("{} x {} = {}".format(num, i, num * i))
+        for n in range(10):
+            print(f"{num} x {n} = {num * n}")
     except ValueError:
         print("Input is not a number")
 

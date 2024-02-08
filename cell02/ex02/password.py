@@ -1,13 +1,15 @@
 #! /usr/bin/python
 
+class ExpInvalidPass(Exception):
+    pass
 
 def main():
     password = "Python is awesome"
     try:
         if input() != password:
-            raise ValueError
+            raise ExpInvalidPass
         print("ACCESS GRANTED")
-    except ValueError:
+    except ExpInvalidPass:
         print("ACCESS DENIED")
 
 

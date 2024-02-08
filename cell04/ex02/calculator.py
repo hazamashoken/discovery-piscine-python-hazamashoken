@@ -12,6 +12,8 @@ def main():
 
     except ValueError:
         print("number must be number.")
+    except ZeroDivisionError:
+        print("second number cannot be zero.")
 
 if __name__ == "__main__":
     main()

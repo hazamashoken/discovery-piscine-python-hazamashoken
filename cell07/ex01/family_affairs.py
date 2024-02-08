@@ -1,7 +1,7 @@
 #! /usr/bin/python
 
 def find_the_redheads(dic: dict):
-    return [key for key, value in filter(lambda item: item[1] == "red", dic.items())]
+    return [key for key, _ in filter(lambda item: item[1] == "red", dic.items())]
 
 def main():
     dupont_family = {

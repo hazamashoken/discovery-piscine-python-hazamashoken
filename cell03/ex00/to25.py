@@ -9,7 +9,7 @@ def main():
         if num > 25:
             raise ExpMoreThan25
         while num <= 25:
-            print("Inside the loop, my variable is {}".format(num))
+            print(f"Inside the loop, my variable is {num}")
             num += 1
     except ExpMoreThan25:
         print("Error")
