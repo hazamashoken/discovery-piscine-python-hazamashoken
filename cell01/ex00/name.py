@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
 def main():
     first_name = ["T","h", "a","n","a","p","o","l"]

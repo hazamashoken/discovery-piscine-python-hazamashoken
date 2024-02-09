@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
 def array_of_names(dic: dict[str, str]):
     return ([f"{key.capitalize()} {value.capitalize()}" for key, value in dic.items()])

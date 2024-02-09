@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
 def greetings(name="noble stranger"):
     print(f"Hello, {name}." if isinstance(name, str) else "Error! It was not a name.")

@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
 def main():
     uwu = ["H", "e", "l", "l", "o", " ", "W", "o", "r", "l", "d", "\n"]    

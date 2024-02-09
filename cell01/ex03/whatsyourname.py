@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
 def main():
     print("Well, pleased to meet you, {} {}.".format(input('Hey, what\'s your first name? : '), input('And your last name? : ')))

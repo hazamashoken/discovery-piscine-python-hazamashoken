@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
 def find_the_redheads(dic: dict):
     return [key for key, _ in filter(lambda item: item[1] == "red", dic.items())]

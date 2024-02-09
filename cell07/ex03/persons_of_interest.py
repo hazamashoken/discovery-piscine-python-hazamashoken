@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
 def famous_births(dic: dict):
     print(*[f"{ppl[1]['name']} is a great scientist born in {ppl[1]['date_of_birth']}." for ppl in sorted(dic.items(), key=lambda item: item[1]["date_of_birth"])], sep="\n")
