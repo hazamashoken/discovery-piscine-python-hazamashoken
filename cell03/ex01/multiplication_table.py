@@ -3,8 +3,7 @@
 def main():
     try:
         num = int(input("Enter a number\n"))
-        for n in range(10):
-            print(f"{num} x {n} = {num * n}")
+        print(*[f"{num} x {n} = {num * n}" for n in range(10)], sep="\n")
     except ValueError:
         print("Input is not a number")
 
